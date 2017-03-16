@@ -1,0 +1,288 @@
+.jd_layout{
+	min-width: 300px;
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+}
+/*头部搜索开始*/
+.jd_header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 40px;
+	z-index: 1000;
+}
+
+.jd_header .jd_header_box{
+	min-width: 300px;
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+	background: rgba(201,21,35,0);
+
+}
+.jd_header .icon_logo{
+	background: url(../images/sprites.png) no-repeat;
+    background-size: 200px 200px;
+    background-position: 1px -100px;
+    display: block;
+    width: 27px;
+    height: 40px;
+    float: left;
+}
+.jd_header form{
+	width: 100%;
+	height: 40px;
+	padding-left: 36px;
+	padding-right: 50px;
+}
+.jd_header form .icon_search{
+	background-position: -60px -109px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	left: 45px;
+	top: 10px;
+}
+.jd_header form input{
+	width: 100%;
+	height: 30px;
+	border-radius: 15px;
+	margin-top: 5px;
+	padding-left: 30px;
+	background: #fff;
+}
+.jd_header .login{
+	display: block;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	height: 100%;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+
+}
+
+/*头部搜索结束*/
+
+/*Bannber开始*/
+.jd_banner{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.jd_banner ul:first-child{
+	width: 1000%;	
+
+}
+.jd_banner ul:first-child li{
+	width: 10%;
+	float: left;
+}
+.jd_banner ul:first-child li img{
+	width: 100%;
+}
+.jd_banner ul:last-child{
+	position: absolute;
+	left: 50%;
+	bottom: 60px;
+	width: 118px;
+	margin: -59px;
+}
+.jd_banner ul:last-child li{
+	width: 6px;
+	height: 6px;
+	border: 1px solid #fff;
+	margin-left: 10px;
+	z-index: 999;
+	float: left;
+	border-radius: 3px;
+}
+.jd_banner ul:last-child li:first-child{
+	margin-left: 0;
+}
+.jd_banner ul:last-child li.now{
+	background: #fff;
+}
+.jd_banner ul:last-child li img{}
+/*Bannber结束*/
+
+/*导航开始*/
+.jd_nav{
+	border-bottom: 1px solid #ebebeb;
+	background: #fff;
+	padding-top: 11px;
+}
+.jd_nav ul{
+	height: 138px;
+	padding:  0 3.125%;
+}
+.jd_nav ul li{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.jd_nav ul li img{
+	width: 40px;
+	height: 40px;
+	margin-bottom: 6px;
+}
+.jd_nav ul li p{
+	font-size: 12px;
+	line-height: 12px;
+	color: #5d5d5d;
+	margin-bottom: 11px;
+}
+/*导航结束*/
+
+/*商品区域开始*/
+.jd_product{
+	padding: 0 5px;
+	margin-top: 8px;
+}
+.jd_areaBox .jd_areBox_top .tit:before{
+	content : "";
+	width: 3px;
+	height: 12px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 7px;
+	background: red;	
+}
+.jd_areaBox{
+	box-shadow:  0 0 1px 1px #ebebeb;
+	background: #fff;
+	margin-bottom: 8px;
+}
+.jd_areaBox .jd_areBox_top{
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+	padding-left: 15px;
+}
+.jd_areaBox .jd_areBox_bot{
+	border-top: 1px solid #ebebeb;
+}
+
+.border_left{
+	border-left: 2px solid #ebebeb;
+}
+.border_right{
+	border-right: 2px solid #ebebeb;
+}
+.border_bottom{
+	border-bottom: 2px solid #ebebeb;
+}
+.f_left{
+	float: left;
+	width: 50%;
+}
+.f_right{
+	float: right;
+	width: 50%;
+}
+.f_left img{
+	width: 100%;
+}
+.f_right img{
+	width: 100%;
+}
+/*秒杀区域开始*/
+.jd_killSecond{
+	background: #fff;	
+}
+.jd_killSecond .kill_top_left{
+	width: 100%;
+	overflow: hidden;
+}
+.jd_killSecond .kill_top_left .icon_kill{
+	display: block;
+	width: 16px;
+	height: 20px;
+	background: url("../images/seckill-icon.png") no-repeat;
+	background-size: 16px 20px;
+	margin-top: 6px;
+	margin-left: 5px;
+	float: left;
+}
+.jd_killSecond .kill_top_left h3{
+	font-weight: inherit;
+	color: #c91523;
+	font-size: 15px;
+	margin-left: 5px;
+	float: left;
+	position: relative;
+	top: 3px;
+}
+
+.jd_killSecond .kill_top_left .kill_time{
+	margin-left: 5px;
+	float: left;
+}
+.jd_killSecond .kill_top_left .kill_time .num{
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	background: #333;
+	margin-top: 8px;
+}
+.jd_killSecond .kill_top_right{
+	float: right;
+}
+.jd_killSecond ul li{
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.jd_killSecond ul li .img_box{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	border-right: 1px solid #dcdcdc;
+}
+.jd_killSecond ul li:last-child .img_box{
+	border-right: 0;
+}
+.jd_killSecond ul li .img_box img{
+	width: 64%;
+}
+.jd_killSecond ul li .new_price{
+	color: #d8505c;
+	font-size: 14px;
+	line-height: 20px;
+}
+.jd_killSecond ul li .old_price{
+	color: #666;
+	font-size: 12px;
+	line-height: 16px;
+	text-decoration: line-through;
+}
+/*秒杀区域结束*/
+
+/*疯狂星期二开始*/
+.jd_big_box{
+	padding: 5px;
+}
+.jd_big_box img{
+	width: 100%;
+}
+/*疯狂星期二结束*/
+
+/*超值购开始*/
+/*超值购结束*/
+
+/*热门活动开始*/
+/*热门活动结束*/
+
+/*商品区域结束*/
